@@ -1,18 +1,17 @@
 import React from 'react';
+import headshot from './headshot.jpg';
 
 function About() {
   return (
     <section className="my-5">
       <div className="my-2">
         <div className="profile-img my-5">
-        <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
+        <div><img src={headshot} alt ="headshot"></img></div> 
+
         </div>
         <p>
-        Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter plaid direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard Carles you probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut paleo scenester
-        </p>
-        <p>
-        Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't heard of them American Apparel next level pug ugh.
-        </p>
+        Giovanni Malcolm is a 24 year-old Bachelors graduate of Georgia Tech's Civil Engineering program. He is originally born and raised in Brooklyn, New York. Post-graduation, Giovanni has worked for McCarthy Building Comapnies, fulfilling roles of both a pre-construction estimator and on-site project engineer. Giovanni has worked with subcontractors on many different projects in the ATL area to schedule, plan, and budget all details of each respective ensured scope of work. On the field, he has worked in the renewables division of the company. Here, Giovanni took on a wide range of responsibilities from developing and managing work crews to completing inspections and daily quality control walks. Today, Giovanni is enrolled in the GT Coding Bootcamp with aspirations to transition into a new industry with more opportunity.
+</p>
       </div>
     </section>
   );

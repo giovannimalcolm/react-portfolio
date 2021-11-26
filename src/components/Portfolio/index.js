@@ -3,37 +3,36 @@ import Project from "../Project";
 
 function Portfolio() {
 
-  // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'surf-report',
+      name: 'workout-tracker',
       description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      link: "https://workout-tracker-222.herokuapp.com/",
+      repo: "https://github.com/giovannimalcolm/workout-tracker"
     },
     {
-      name: 'pastel-puzzels',
+      name: 'tech-blog',
       description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      link: "https://tech-blog-222.herokuapp.com/",
+      repo: "https://github.com/giovannimalcolm/tech-blog"
     },
     {
-      name: 'run-buddy',
+      name: 'progressive-budget',
       description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      link: "https://tranquil-sands-80248.herokuapp.com/",
+      repo: "https://github.com/giovannimalcolm/progressive-budget"
     },
     {
-      name: 'led-wall',
+      name: 'note-taker',
       description: 'Node/IoT',
-      link: "https://github.com",
-      repo: "https://github.com"
+      link: "https://fast-escarpment-52570.herokuapp.com/",
+      repo: "https://github.com/giovannimalcolm/note-taker"
     },
     {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'weather-dashboard',
+      description: 'HTML/JavaScript/CSS',
+      link: "https://giovannimalcolm.github.io/weather-dashboard/",
+      repo: "https://github.com/giovannimalcolm/weather-dashboard"
     },
   ]);
 
